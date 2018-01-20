@@ -6,7 +6,7 @@ permalink: /Bio/
 
 Hi! This is Won, and nice to meet you over cable fiber!
 
-I graduated from [Rice University](https://www.rice.edu) [Department of Statistics](https://statistics.rice.edu), in 2014.
+I graduated from [Rice University](https://www.rice.edu)  [Department of Statistics](https://statistics.rice.edu), in 2014.
 I was particuarly interested in various statistical learning theories and communicating insights succiently and gracefully.
 
 I currently work at [Panorama Education](https://www.panoramaed.com), where we help radically improve student outcomes via data and analytics.
