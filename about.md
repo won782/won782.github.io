@@ -1,18 +1,17 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Bio
+permalink: /Bio/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi! This is Won, and nice to meet you over cable fiber!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I graduated from [Rice University][https://www.rice.edu] [Department of Statistics](https://statistics.rice.edu), in 2014.
+I was particuarly interested in various statistical learning theories and communicating insights succiently and gracefully.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I currently work at [Panorama Education][https://www.panoramaed.com], where we help radically improve student outcomes via data and analytics.
 
+Besides looking at data, crunching numbers, thinking about various probabilities about both probable and improbable things in life,
+I enjoy playing golf and skiing!
 
-[jekyll-organization]: https://github.com/jekyll
+If you need any other information, please don't hesistate to contact me won782 [at] gmail [dot] com!
