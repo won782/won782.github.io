@@ -1,25 +1,14 @@
 ---
 layout: post
-title:  "Setting up Chromebook"
+title:  "Starting Personal Blog : TODOs"
 date:   2018-01-20 14:56:37 -0500
-categories: chromebook linux xubuntu
+categories: chromebook blog jekyll
 ---
 Hello!
 
-Jekyll also offers powerful support for code snippets:
+I realized that I opted myself out from social media (ask me why. This is can be a good conversation topic), and as a by product, have no outlets to communicate my thoughts and maybe brag about awesome adventure that I had last summer.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-Aha! This uses very standard markdown things!
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+* Upload some viz
+* Basketball stuff?
+* Golf stuff?
+* Integrate with Medium?
