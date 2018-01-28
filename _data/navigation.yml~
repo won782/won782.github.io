@@ -1,0 +1,10 @@
+
+main:
+ - title: "Bio / CV"
+   url: /_posts/bio/
+ - title: "Photos"
+   url: /_posts/photo/
+ - title: "Numbers"
+   url: /_posts/numbers/
+ - title: "Travel"
+   url: /_posts/travel/
