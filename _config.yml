@@ -22,16 +22,19 @@ description: >- # this means to ignore newlines until "baseurl:"
   of life!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://won782.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  won782
-# linkedin_username: won-suh-214900a3
-# stackoverflow_username: won782
+
+github_username: won782
+linkedin_username: won782
+rss: rss
 
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
+  - jekyll-crosspost-to-medium
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -44,3 +47,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+
