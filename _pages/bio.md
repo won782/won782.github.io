@@ -16,4 +16,4 @@ I enjoy playing golf and skiing!
 
 Before my life in Boston, I lived at Daegu, South Korea for most of my life, but also in Syndey, Australia, Athens, GA, Shanghai, Guangzhou, Gumi (South Korea), Houston, TX, and Kansas City, MO.
 
-If you need any other information, please don't hesistate to contact me won782 [at] gmail [dot] com!
+To regurgitate above, you can look at brief [CV](CV), or Iif you need any other information, please don't hesistate to contact me won782 [at] gmail [dot] com!
