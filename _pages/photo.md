@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Photo
+title: "Photo"
 permalink: /photo/
 ---
 ![zermatt1](/assets/img/zermatt1.JPG){:class="img-responsive"}
