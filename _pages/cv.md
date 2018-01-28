@@ -9,7 +9,7 @@ Won Suh
 Education
 * Rice Universitiy, Master of Statistics (2013-14)
 * Rice University, Bachelor of Arts in Statistics (2007-13)
-* Gyeongbuk Foreign Language Highschool (2005-07)
+* Gyeongbuk Foreign Language High School (2005-07)
 * Fudan University, Exchange Student (2008)
 
 Work

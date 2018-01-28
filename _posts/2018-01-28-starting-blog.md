@@ -18,7 +18,7 @@ I will mostly talk about **data science**, **travel**, **sports via data**, and 
 ## Tech Stack
 I purchased **Samsung Chromebook 3**![alt text](/assets/img/chromebook.jpg){:class="img-responsive"}
 
-just for the purpose of this blog. I've installed [**xfce**](https://xfce.org/) so that I can develop things in Linux environment. For $200, I now have solid 11 inch and 12 hour lasting perfect scripting toy!
+just for the purpose of this blog. I've installed [**xfce**](https://xfce.org/) so that I can develop things in Linux environment. For $200, I now have a solid 11 inch and 12 hour lasting perfect scripting toy!
 
 So my Windows desktop is of great entertainment value, but not suitable for development. My Macbook Pro is bulky, and does not have the best battery life - it is a over-overkill for simple scripting tasks.
 

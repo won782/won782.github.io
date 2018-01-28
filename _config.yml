@@ -63,3 +63,9 @@ include: ["_posts", "_pages"]
 paginate: 5
 paginate_path: /page:num/
 
+# Enable collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
