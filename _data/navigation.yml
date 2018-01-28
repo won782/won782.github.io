@@ -1,9 +1,9 @@
 
 main:
  - title: "Bio / CV"
-   url: /_posts/bio/bio.md
+   url: /_posts/bio/
  - title: "Photos"
-   url: /_posts/photo/photo.md
+   url: /_posts/photo/
  - title: "Numbers"
    url: /_posts/numbers/
  - title: "Travel"

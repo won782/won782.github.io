@@ -9,16 +9,16 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Won Take on World</title>
+<!-- begin _includes/seo.html --><title>Starting Personal Blog : TODOs  Won Take on World</title>
 <meta name="description" content="Hi, I am Won Suh, data scientist by most days, avid golfer and skiier. I like to think a lot of things in numbers, as I believe numbers are almost always probably approximately correct, and the first principal component of life!">
 
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Won Take on World">
-<meta property="og:title" content="Won Take on World">
-<meta property="og:url" content="http://0.0.0.0:4000/">
+<meta property="og:title" content="Starting Personal Blog : TODOs">
+<meta property="og:url" content="http://0.0.0.0:4000/_posts/2018-01-23-settingup-markdown">
 
 
 
@@ -27,12 +27,14 @@
 
 
 
+  <meta property="article:published_time" content="2018-01-20T14:56:37-05:00">
 
 
 
 
 
-<link rel="canonical" href="http://0.0.0.0:4000/">
+
+<link rel="canonical" href="http://0.0.0.0:4000/_posts/2018-01-23-settingup-markdown">
 
 
 
@@ -86,7 +88,7 @@
 <!-- end custom head snippets -->
   </head>
 
-  <body class="layout--home">
+  <body class="layout--single">
 
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
@@ -138,154 +140,58 @@
 
 <div id="main" role="main">
   
-  <div class="sidebar sticky">
-  
 
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Starting Personal Blog : TODOs">
+    
+    <meta itemprop="datePublished" content="January 20, 2018">
+    
 
-<div itemscope itemtype="http://schema.org/Person">
-
-  
-    <div class="author__avatar">
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Starting Personal Blog : TODOs
+</h1>
+          
+        </header>
       
 
-      
+      <section class="page__content" itemprop="text">
         
-        <a href="https://won782.github.io">
-          <img src="http://0.0.0.0:4000/assets/img/avatar.png" alt="" itemprop="image">
-        </a>
+        Hello!
+
+I realized that I opted myself out from social media (ask me why. This is can be a good conversation topic), and as a by product, have no outlets to communicate my thoughts and maybe brag about awesome adventure that I had last summer.
+
+* Upload some viz
+* Basketball stuff?
+* Golf stuff?
+* Integrate with Medium?
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-01-20T14:56:37-05:00">January 20, 2018</time></p>
+        
+      </footer>
+
+      
+
       
     </div>
-  
 
-  <div class="author__content">
     
-      <a href="https://won782.github.io"><h3 class="author__name" itemprop="name"></h3></a>
-    
-    
-      <p class="author__bio" itemprop="description">
-        Numbers, Data, Cracking, and Occasional Travels
-      </p>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Boston, MA</span>
-        </li>
-      
-
-      
-        <li>
-          <a href="https://won782.github.io" itemprop="url">
-            <i class="fas fa-fw fa-link" aria-hidden="true"></i> Website
-          </a>
-        </li>
-      
-
-      
-        <li>
-          <a href="mailto:won782@gmail.com">
-            <meta itemprop="email" content="won782@gmail.com" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
-          </a>
-        </li>
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-        <li>
-          <a href="https://www.linkedin.com/in/won782" itemprop="sameAs">
-            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
-          </a>
-        </li>
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-        <li>
-          <a href="https://github.com/won782" itemprop="sameAs">
-            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
-          </a>
-        </li>
-      
-
-      
-
-      
-        <li>
-          <a href="https://www.stackoverflow.com/users/3893584/won782" itemprop="sameAs">
-            <i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow
-          </a>
-        </li>
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
+  </article>
 
   
-  </div>
-
-
-  <div class="archive">
-    
-      <h1 class="page__title"></h1>
-    
-    <h3 class="archive__subtitle">Recent Posts</h3>
-
-
-
-
-
-
-  </div>
+  
 </div>
+
     </div>
 
     

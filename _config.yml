@@ -21,6 +21,7 @@ defaults:
     values:
       author_profile: true
       read_time: true
+      layout: single
 
 # Site Author
 author:
@@ -47,5 +48,4 @@ minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
   - jekyll-crosspost-to-medium
-
-
+include: ["_posts", "_pages"]
