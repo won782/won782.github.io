@@ -20,6 +20,8 @@ defaults:
       author_profile: true
       read_time: true
       layout: single
+      related: true
+      share: true
   # _pages
   - scope:
       path: ""
@@ -55,3 +57,9 @@ plugins:
   - jekyll-feed
   - jekyll-crosspost-to-medium
 include: ["_posts", "_pages"]
+
+
+# Configure pagination
+paginate: 5
+paginate_path: /page:num/
+

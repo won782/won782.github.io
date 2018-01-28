@@ -5,6 +5,6 @@ main:
  - title: "Photos"
    url: /photo/
  - title: "Numbers"
-   url: /_posts/numbers/
+   url: /numbers/
  - title: "Travel"
-   url: /_posts/travel/
+   url: /travel/
