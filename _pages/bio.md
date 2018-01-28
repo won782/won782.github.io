@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Bio
-permalink: /Bio/
+permalink: /bio/
 ---
 
 Hi! This is Won, and nice to meet you over cable fiber!

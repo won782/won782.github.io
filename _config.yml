@@ -2,10 +2,7 @@
 
 
 title: Won Take on World
-description: Hi, I am Won Suh, data scientist by most days, avid golfer and skiier.
-  I like to think a lot of things in numbers, as I believe numbers are
-  almost always probably approximately correct, and the first principal component
-  of life!
+description: Personal Webpage of Won Suh
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://won782.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github: won782
@@ -34,7 +31,7 @@ author:
  github : "won782"
  linkedin : "won782"
  stackoverflow : "3893584/won782"
- bio : "Numbers, Data, Cracking, and Occasional Travels"
+ bio :  "Believer in number as first principal component of the world, or a boring guy - Minus being Thinker, Golfer, Soilder, and Skiier"
 
 # Optionals
 words_per_minute: 200

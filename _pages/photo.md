@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Photos
-permalink: /Photos/
+layout: single
+title: Photo
+permalink: /photo/
 ---
 ![zermatt1](/assets/img/zermatt1.JPG){:class="img-responsive"}
 ![seattle](/assets/img/seattle.jpg){:class="img-responsive"}
