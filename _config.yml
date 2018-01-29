@@ -1,5 +1,4 @@
-# 'bundle exec jekyll serve'
-
+# 'LANG="en_US.UTF-8" LC_ALL="en_US.UTF-8" bundle exec jekyll serve -H 0.0.0.0 --incremental --watc'
 
 title: Won Take on World
 title_separator: "-"
@@ -76,7 +75,8 @@ minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
   - jekyll-crosspost-to-medium
-include: ["_posts", "_pages"]
+  - jekyll-redirect-from
+include: ["_pages", "_numbers", "_extracurriculars"]
 
 # Configure pagination
 paginate: 5
@@ -87,6 +87,6 @@ collections:
   numbers:
     output: true
     permalink: /:collection/:path
-  extracurricular:
+  extracurriculars:
     output: true
-    permalinl: /:collection/:path
+    permalink: /:collection/:path
