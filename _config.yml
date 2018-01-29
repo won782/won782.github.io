@@ -29,6 +29,26 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _numbers
+  - scope:
+      path: ""
+      type: numbers
+    values:
+      author_profile: true
+      read_time: true
+      layout: single
+      related: true
+      share: true
+  # _extracurriculars
+  - scope:
+      path: ""
+      type: extracurriculars
+    values:
+      author_profile: true
+      read_time: true
+      layout: single
+      related: true
+      share: true
 
 
 # Site Author
@@ -58,14 +78,15 @@ plugins:
   - jekyll-crosspost-to-medium
 include: ["_posts", "_pages"]
 
-
 # Configure pagination
 paginate: 5
 paginate_path: /page:num/
 
 # Enable collections
 collections:
-  portfolio:
+  numbers:
     output: true
-    permalink: /:collection/:path/
-
+    permalink: /:collection/:path
+  extracurricular:
+    output: true
+    permalinl: /:collection/:path
