@@ -1,5 +1,5 @@
 ---
-title: "Photo"
+title: "Photos"
 layout: single
 permalink: /photo/
 author_profile: true
