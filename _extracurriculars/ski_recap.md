@@ -38,7 +38,7 @@ So below are places I've been so far, until mid-late 2017-2018 season
 * [Alta, UT](https://www.alta.com/)
 * [Deer Valley, UT](http://www.deervalley.com/)
 * [Winter Park, CO](https://www.winterparkresort.com/)
-![alt text](/assets/img/ski/winterpark.png){:class="img-responsive"}
+![alt text](/assets/img/ski/winterpark.jpg){:class="img-responsive"}
 
 ## Europe
 * [Zermatt International, Valais, Switzerland](https://www.zermatt.ch/)
