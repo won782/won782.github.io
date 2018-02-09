@@ -8,7 +8,7 @@
 .page__footer-follow .social-icons .svg-inline--fa { color: inherit; }
 
 /*!
- * Minimal Mistakes Jekyll Theme 4.9.0 by Michael Rose
+ * Minimal Mistakes Jekyll Theme 4.9.1 by Michael Rose
  * Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
  * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt)
 */
@@ -1004,6 +1004,12 @@ a.reversefootnote:hover { text-decoration: underline; }
 
 .page__related-title { margin-bottom: 10px; font-size: 0.75em; text-transform: uppercase; }
 
+/* Wide Pages ========================================================================== */
+@media (min-width: 64em) { .wide .page { padding-right: 0; } }
+@media (min-width: 80em) { .wide .page { padding-right: 0; } }
+@media (min-width: 64em) { .wide .page__related { padding-right: 0; } }
+@media (min-width: 80em) { .wide .page__related { padding-right: 0; } }
+
 /* ========================================================================== ARCHIVE ========================================================================== */
 .archive { margin-bottom: 2em; }
 @media (min-width: 64em) { .archive { float: right; width: calc(100% - 200px); padding-right: 200px; } }
@@ -1133,6 +1139,11 @@ a.reversefootnote:hover { text-decoration: underline; }
 .author__urls li { white-space: nowrap; }
 .author__urls a { display: block; margin-bottom: 5px; padding-right: 5px; padding-top: 2px; padding-bottom: 2px; color: inherit; font-size: 1em; text-decoration: none; }
 .author__urls a:hover { text-decoration: underline; }
+
+/* Wide Pages ========================================================================== */
+.wide .sidebar__right { margin-bottom: 1em; }
+@media (min-width: 64em) { .wide .sidebar__right { position: initial; top: initial; right: initial; width: initial; margin-right: initial; padding-left: initial; z-index: initial; } }
+@media (min-width: 80em) { .wide .sidebar__right { width: initial; margin-right: initial; } }
 
 /* ========================================================================== PRINT STYLES ========================================================================== */
 @media print { [hidden] { display: none; }
