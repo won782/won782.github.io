@@ -4,7 +4,7 @@ title: "Numbers"
 permalink: "/numbers/"
 ---
 <ul>
-  {% for item in site.numbers %}
+  {% for item in site.numbers reversed %}
     <p>
       <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
       - {{ item.headline }}<br/>

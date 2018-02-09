@@ -5,7 +5,7 @@ permalink: "/extracurriculars/"
 ---
 
 <ul>
-  {% for item in site.extracurriculars %}
+  {% for item in site.extracurriculars reversed %}
     <p>
       <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
       - {{ item.headline }}<br/>
