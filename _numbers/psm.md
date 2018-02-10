@@ -18,15 +18,17 @@ I have my own branching model of data in different buckets, in 2 dimensions.
         * Count
     * Categorical
     * Text
+    * Image
+    * Time
 * Data Type
-    * Attribute
+    * Attribute :
     If primary key is the subject of interest OR sampling unit for the analysis
-    * Record
-    If primary key is an event that can be associated with sample unit
+    * Record :
+    If primary key is an event that can be associated with sampling unit
 * Data Source
-    * Experimental
+    * Experimental :
     If data is generated in controlled setting (e.g. Randomized Controlled Trial)
-    * Observational
+    * Observational :
     If data is a collection of observations
 
 Data format has more to do with statistical techniques. There are different probability distributions that fits data well - count with Poisson, binary with Binomial, Bernoulli, Hypergeometric, and continuous with Gaussian, Log-normal, Beta... list goes on.
