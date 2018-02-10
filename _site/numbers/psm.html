@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Causality and Propensity Score Matching - Won Take on World</title>
-<meta name="description" content="I have my own branching model of data in different buckets, in 2 dimensions.">
+<meta name="description" content="I have my own branching model of data in different buckets, in 3 dimensions.">
 
 
 
@@ -21,7 +21,7 @@
 <meta property="og:url" content="http://0.0.0.0:4000/numbers/psm">
 
 
-  <meta property="og:description" content="I have my own branching model of data in different buckets, in 2 dimensions.">
+  <meta property="og:description" content="I have my own branching model of data in different buckets, in 3 dimensions.">
 
 
 
@@ -279,7 +279,7 @@
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Causality and Propensity Score Matching">
-    <meta itemprop="description" content="I have my own branching model of data in different buckets, in 2 dimensions.">
+    <meta itemprop="description" content="I have my own branching model of data in different buckets, in 3 dimensions.">
     <meta itemprop="datePublished" content="February 09, 2018">
     
 
@@ -302,10 +302,10 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>I have my own branching model of data in different buckets, in 2 dimensions.</p>
+        <p>I have my own branching model of data in different buckets, in 3 dimensions.</p>
 
 <ul>
-  <li>Data Format
+  <li><strong>Data Format</strong>
     <ul>
       <li>Numeric
         <ul>
@@ -320,7 +320,7 @@
       <li>Time</li>
     </ul>
   </li>
-  <li>Data Type
+  <li><strong>Data Type</strong>
     <ul>
       <li>Attribute :
   If primary key is the subject of interest OR sampling unit for the analysis</li>
@@ -328,7 +328,7 @@
   If primary key is an event that can be associated with sampling unit</li>
     </ul>
   </li>
-  <li>Data Source
+  <li><strong>Data Source</strong>
     <ul>
       <li>Experimental :
   If data is generated in controlled setting (e.g. Randomized Controlled Trial)</li>
@@ -338,11 +338,15 @@
   </li>
 </ul>
 
+<hr />
+
 <p>Data format has more to do with statistical techniques. There are different probability distributions that fits data well - count with Poisson, binary with Binomial, Bernoulli, Hypergeometric, and continuous with Gaussian, Log-normal, Beta… list goes on.</p>
 
 <p>Data type is more about how to query and transform data. Lots of joins, group bys, or some neat <code class="highlighter-rouge">dplyr</code> skills.</p>
 
 <p>Data source is often neglected and what I want to write about here. Most of data in the world are observational data. And often times, we make wrong causal claims using observational data and this should be done in a cautious manner.</p>
+
+<hr />
 
 <p>Suppose you have only two records; number of firefighters dispatched and amount of financial damage a building had. Of course those two will have very high correlation. However, we will not make such a claim that <em>firefighters will bring financial damage to the building</em>.</p>
 
@@ -351,6 +355,8 @@
 <p>Often times in observational data, we lack these underlying varibles. Unfortunately, it is often those underlying factors that are more difficult to measure.</p>
 
 <p>Consider the case of student achievement in Mathematics and absences. There will pretty strong negative correlation between two variables, but we cannot attribute 100% of low achievement to absences. Underlying psychological factors such as ‘giving up’, ‘not motivated’ or even socio-economical factors are often not measured.</p>
+
+<hr />
 
 <p>There are two different schools of thought to solve this issue (although they are closely related).</p>
 

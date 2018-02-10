@@ -15,7 +15,7 @@ var store = [{
         "url": "http://0.0.0.0:4000/numbers/starting_blog",
         "teaser":null},{
         "title": "Causality and Propensity Score Matching",
-        "excerpt":"I have my own branching model of data in different buckets, in 2 dimensions. Data Format Numeric Continuous Binary Count Categorical Text Image Time Data Type Attribute : If primary key is the subject of interest OR sampling unit for the analysis Record : If primary key is an event...","categories": [],
+        "excerpt":"I have my own branching model of data in different buckets, in 3 dimensions. Data Format Numeric Continuous Binary Count Categorical Text Image Time Data Type Attribute : If primary key is the subject of interest OR sampling unit for the analysis Record : If primary key is an event...","categories": [],
         "tags": ["propensity score matching","statistics","causality","observational data"],
         "url": "http://0.0.0.0:4000/numbers/psm",
         "teaser":null},]
