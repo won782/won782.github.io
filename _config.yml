@@ -76,6 +76,7 @@ plugins:
   - jekyll-feed
   - jekyll-crosspost-to-medium
   - jekyll-redirect-from
+  - jekyll-seo-tag
 include: ["_pages", "_numbers", "_extracurriculars"]
 
 # Configure pagination
