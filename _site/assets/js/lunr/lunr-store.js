@@ -18,4 +18,9 @@ var store = [{
         "excerpt":"I have my own branching model of data in different buckets, in 3 dimensions. Data Format Numeric Continuous Binary Count Categorical Text Image Time Data Type Attribute : If primary key is the subject of interest OR sampling unit for the analysis Record : If primary key is an event...","categories": [],
         "tags": ["propensity score matching","statistics","causality","observational data"],
         "url": "http://0.0.0.0:4000/numbers/psm",
+        "teaser":null},{
+        "title": "Big Data in Education Workshop Recap",
+        "excerpt":"How I heard about thisSo last year 1 week before the submissions were due, I stumbled uponthis data science competiton.I literally had 1 week left, so without giving a much thought, fitted a neural network with aggregated time series / ordered variables, and after few hours of tuning the parameters,...","categories": [],
+        "tags": ["big data","education","analytics","workshop"],
+        "url": "http://0.0.0.0:4000/numbers/dm_workshop_feb18",
         "teaser":null},]

@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Causality and Propensity Score Matching - Won Take on World</title>
+<!-- begin _includes/seo.html --><title>Big Data in Education Workshop Recap - Won Take on World</title>
 <meta name="description" content="Personal Webpage of Won Suh">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Won Take on World">
-<meta property="og:title" content="Causality and Propensity Score Matching">
-<meta property="og:url" content="http://0.0.0.0:4000/_numbers/psm.html">
+<meta property="og:title" content="Big Data in Education Workshop Recap">
+<meta property="og:url" content="http://0.0.0.0:4000/_numbers/dm_workshop_feb18.html">
 
 
 
@@ -27,14 +27,14 @@
 
 
 
-  <meta property="article:published_time" content="2018-02-09T18:57:00-05:00">
+  <meta property="article:published_time" content="2018-02-17T12:50:00-05:00">
 
 
 
 
 
 
-<link rel="canonical" href="http://0.0.0.0:4000/_numbers/psm.html">
+<link rel="canonical" href="http://0.0.0.0:4000/_numbers/dm_workshop_feb18.html">
 
 
 
@@ -276,15 +276,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Causality and Propensity Score Matching">
+    <meta itemprop="headline" content="Big Data in Education Workshop Recap">
     
-    <meta itemprop="datePublished" content="February 09, 2018">
+    <meta itemprop="datePublished" content="February 17, 2018">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Causality and Propensity Score Matching
+          <h1 class="page__title" itemprop="headline">Big Data in Education Workshop Recap
 </h1>
           
         </header>
@@ -292,70 +292,42 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>I have my own branching model of data in different buckets, in 3 dimensions.</p>
+        <h2 id="how-i-heard-about-this">How I heard about this</h2>
 
-<ul>
-  <li><strong>Data Format</strong>
-    <ul>
-      <li>Numeric
-        <ul>
-          <li>Continuous</li>
-          <li>Binary</li>
-          <li>Count</li>
-        </ul>
-      </li>
-      <li>Categorical</li>
-      <li>Text</li>
-      <li>Image</li>
-      <li>Time</li>
-    </ul>
-  </li>
-  <li><strong>Data Type</strong>
-    <ul>
-      <li>Attribute :
-  If primary key is the subject of interest OR sampling unit for the analysis</li>
-      <li>Record :
-  If primary key is an event that can be associated with sampling unit</li>
-    </ul>
-  </li>
-  <li><strong>Data Source</strong>
-    <ul>
-      <li>Experimental :
-  If data is generated in controlled setting (e.g. Randomized Controlled Trial)</li>
-      <li>Observational :
-  If data is a collection of observations</li>
-    </ul>
-  </li>
-</ul>
+<p>So last year 1 week before the submissions were due, I stumbled upon
+<a href="https://sites.google.com/view/bigdataforeducation/competitions">this</a>
+ data science competiton.</p>
 
-<hr />
+<p>I literally had 1 week left, so without giving a much thought, fitted a neural network with aggregated time series / ordered variables, and after few hours of tuning the parameters, got ‘middle of the pack’ results (now I am in the mailist, I should be getting a good heads-up next year and see if I can be James Harden at this).</p>
 
-<p>Data format has more to do with statistical techniques. There are different probability distributions that fits data well - count with Poisson, binary with Binomial, Bernoulli, Hypergeometric, and continuous with Gaussian, Log-normal, Beta… list goes on.</p>
+<p>Then as a follow up, I got an email about <a href="https://sites.google.com/view/bigdataforeducation/researcher-training-opportunities/boston-big-data-for-education-conference-february-16">this workshop</a> that I can attend on Friday at MIT, which is 10 mins away from where I live.</p>
 
-<p>Data type is more about how to query and transform data. Lots of joins, group bys, or some neat <code class="highlighter-rouge">dplyr</code> skills.</p>
+<h2 id="mooc">MOOC</h2>
+<p>The day started with on-going analytics approach and challenges in MOOC (Massive Online Open Courses). MOOC is uniquely situated that unlike traditional classrooms, the interaction happens online, so that we can collect mouse movement, ask survey, or do lot of other stuffs that is much more difficult in offline classroom settings. The session was led by <a href="https://openlearning.mit.edu/about/our-team/justin-reich">Justin Reich</a>, whom I thought was a great keynote speaker addressing the challenges to people who are not familiar to MOOCs.</p>
 
-<p>Data source is often neglected and what I want to write about here. Most of data in the world are observational data. And often times, we make wrong causal claims using observational data and this should be done in a cautious manner.</p>
+<p>There were two main challenges that seems critical to me, and I think it applies to field of education and product research in general.</p>
 
-<hr />
+<h2 id="lag-factor">Lag Factor</h2>
+<p>To prove efficacy of product, we need an outcome variable, and in case of education, outcome is vaguely defined, as well as having an <em>enourmous</em> time lag.</p>
 
-<p>Suppose you have only two records; number of firefighters dispatched and amount of financial damage a building had. Of course those two will have very high correlation. However, we will not make such a claim that <em>firefighters will bring financial damage to the building</em>.</p>
+<p>Recalling my education experience, I think I’ve had few key teachers / professors or courses growing up; my 4th grade elementary school teacher who gave me an unconditional trust to realize how great of a person I can be, <a href="http://hadley.nz/">Dr. Hadley Wickham</a> who showed me how awesome statistics can be, and <a href="http://www.stat.rice.edu/~scottdw/">Dr. David Scott</a> who taught me the foundations for a lot of things that I use daily.</p>
 
-<p>Above is typical case of <strong>spurious correlation</strong>. Underlying variable in above is <strong>fire</strong>. If fire happens, firefighters are dispatched, and desipte the efforts, there will be some financial damage to the building. Similar to this case, we often see ridiculous claims from people (viral media, maybe?) using these correlation and signficance to claim causal relationship.</p>
+<p>But if I recall <em>when</em> such pedagogy has help me in an observable change, it is often in magnitude of years. My 4th grade teacher’s help didn’t really show up until my 7~9th grade outcomes, and if so, it is hard to associate that with my 4th grade teacher over 6th grade teacher, whom I have no memories of (I can’t even say whether it was him or her).</p>
 
-<p>Often times in observational data, we lack these underlying varibles. Unfortunately, it is often those underlying factors that are more difficult to measure.</p>
+<p>This lag factor does not only apply to education. Thinking about <em>magical moments</em> in product, I was wowed by homes that I can rent in airbnb soon as I found out, but my 1st booking happened year or two after.</p>
 
-<p>Consider the case of student achievement in Mathematics and absences. There will pretty strong negative correlation between two variables, but we cannot attribute 100% of low achievement to absences. Underlying psychological factors such as ‘giving up’, ‘not motivated’ or even socio-economical factors are often not measured.</p>
+<p>So I think the problem becomes much easier if we remove the constraint on what <em>observable change</em> is. If we can ask users in case of airbnb that “How likely are you to use airbnb after your first look at our offering?”, then we have non-time lagged proxy for engagement and conversion. It is easier said than done, as there are selection biases and other factors, but that seems like much easier problem to solve compared to tracking things over time with amplified noise on data.</p>
 
-<hr />
+<h2 id="low-tolerence-factor">Low Tolerence Factor</h2>
+<p>During the afternoon design session led by <a href="https://startmit.mit.edu/mu_george/">George Mu</a>, I was fortunate to be in a group with my colleage Megan Kenslea and <a href="https://rides.gse.harvard.edu/people/tony-emerson">Tony Emerson</a>. While thinking about what data and analytics can help solve challenges in education, I realized that engagement elasticity to cost / disturbances is one of the key forces driving students away from lot of things.</p>
 
-<p>There are two different schools of thought to solve this issue (although they are closely related).</p>
+<script type="math/tex; mode=display">e_{engagement} = \frac{\Delta \text{Engagement} / \text{Engagement}}{ \Delta \text{Cost} / \text{Cost}}</script>
 
-<p>One is Rubin Causal Model</p>
+<p>Suppose you are on online banking website and need to pay your phone bill. Regardless of how slow the website is, outdated the UI is, and whether you have better things to do in the evening, you are going to do it, because your engagement (or commitment) to performing a task is almost non-elastic with respect to those factors.</p>
 
-<p>Other is Counterfactual Model by Judea Pearl</p>
+<p>In case of education, this metric could be an interesting way to evaluate and categorize programs. The dropout rate in MOOC is biggest problem, and analyzing why and where seems to be interest of researchers. If we can formulate this challenge as either maximizing completion rate (1 - dropout rate) OR minimizing the cost, we might be solving one part of the whole equation.</p>
 
-<p>( TO BE CONTINUED WITH CONCRETE EXAMPLES! )
-( USE NBA DATA? )</p>
+<p>I think</p>
 
         
       </section>
@@ -366,7 +338,7 @@
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-02-09T18:57:00-05:00">February 09, 2018</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-02-17T12:50:00-05:00">February 17, 2018</time></p>
         
       </footer>
 
