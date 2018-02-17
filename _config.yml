@@ -4,7 +4,7 @@ title: Won Take on World
 title_separator: "-"
 description: Personal Webpage of Won Suh
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://won782.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://won782.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github: won782
 repository: won782/won782.github.io
 name: Won Suh
