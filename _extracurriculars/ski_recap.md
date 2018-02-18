@@ -6,7 +6,7 @@ tags:
    - travel
    - personal blog
    - adventure
-headline: "More to come!"
+headline: "Skiing is fun!"
 ---
 So I am an avid skiier, at least converted recently.
 

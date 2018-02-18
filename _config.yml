@@ -77,6 +77,7 @@ plugins:
   - jekyll-crosspost-to-medium
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-maps
 include: ["_pages", "_numbers", "_extracurriculars"]
 
 # Configure pagination
@@ -91,3 +92,5 @@ collections:
   extracurriculars:
     output: true
     permalink: /:collection/:path
+
+# maps
