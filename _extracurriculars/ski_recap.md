@@ -31,6 +31,9 @@ So below are places I've been so far, until mid-late 2017-2018 season
 * [Wachusett, MA](http://www.wachusett.com)
 ![alt text](/assets/img/ski/wachusett.jpg){:class="img-responsive"}
 * [Nashoba Valley, MA](https://www.skinashoba.com/)
+* [Loon, NH](https://www.loonmtn.com/)
+* [Okemo, VT](https://www.okemo.com/)
+
 
 ## US West
 * [Snowbird, UT](https://www.snowbird.com/)
