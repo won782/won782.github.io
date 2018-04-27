@@ -33,5 +33,3 @@ So finally, like Tiger Woods said :
 > I guess, hello world!
 
 ![alt text](/assets/img/helloworld.jpeg){:class="img-responsive"}
-
-

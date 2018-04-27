@@ -54,7 +54,7 @@ defaults:
 author:
  name : *name
  avatar : "/assets/img/avatar.png"
- location : "Boston, MA"
+ location : "Seattle, WA"
  email : won782@gmail.com
  uri : "https://won782.github.io"
  home : "https://won782.github.io"

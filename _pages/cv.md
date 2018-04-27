@@ -13,7 +13,8 @@ Education
 * Fudan University, Exchange Student (2008)
 
 Work
-* Data Scientist, Panorama Education (2014-)
+* Data Scientist, Facebook (2018-)
+* Data Scientist, Panorama Education (2014-2018)
 * Data Scientist Intern, Pinsight Media Plus (2014)
 
 Interests
@@ -30,7 +31,7 @@ Tech Stack / Skills
 * SQL
 
 Volunteering
-* Hyde Square Task Force (Jamaica Plain, MA) Tutoring (2017-)
+* Hyde Square Task Force (Jamaica Plain, MA) Tutoring (2017-2018)
 * Jamaica Plain Community Center GED Program (2017)
 
 For additional information or references, please email won782 [at] gmail [dot] com
