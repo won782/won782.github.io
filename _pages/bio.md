@@ -9,7 +9,7 @@ Hi! This is Won, and nice to meet you over cable fiber!
 I graduated from [Rice University](https://www.rice.edu)  [Department of Statistics](https://statistics.rice.edu), in 2014.
 I was particuarly interested in various statistical learning theories and communicating insights succiently and gracefully.
 
-I will be joining [Facebook](https://www.facebook.com) as a data scientist on April 2018. The impact on people's lives, sheer scale of the work, and opportunities to make changes to the world really excites me and can't wait to start!
+I am a data scientist at [Facebook](https://www.facebook.com), as of April 2018. The impact on people's lives, sheer scale of the work, and opportunities to make positive changes to the world really excites me!
 
 I previously worked at [Panorama Education](https://www.panoramaed.com), where I helped radically improve student outcomes via data and analytics.
 
