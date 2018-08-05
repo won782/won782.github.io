@@ -10,3 +10,5 @@ headline: "Moving from Boston to Seattle"
 ---
 
 Moved from Boston to Seattle.
+I lived in Southwest, South, Midwest, Northeast, and Northwest now!
+Except for Cali, pretty much lived everywhere!
